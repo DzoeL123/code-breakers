@@ -1,2 +1,4 @@
-# code-breakers
-Learn coding using games
+# Code Breakers
+Learn coding using games.
+
+## ... Currently Under Development ...
