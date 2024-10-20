@@ -1,0 +1,39 @@
+<div class="game-container">
+    <h2>Edu Code Game</h2>
+    <div id="phaser-game"></div>
+    
+    <div class="game-level">
+      <h3>Level 1: Basic Math</h3>
+  
+      <!-- Question Section -->
+      <div class="question-section">
+        <label for="question">Question: What is 2 + 2?</label>
+      </div>
+  
+      <!-- Answer Section -->
+      <div class="answer-section">
+        <input type="text" id="answer-input" placeholder="Enter your answer" [(ngModel)]="userAnswer" />
+      </div>
+  
+      <!-- Testing Section -->
+      <div class="testing-section">
+        <button (click)="testAnswer()">Test Answer</button>
+      </div>
+  
+      <!-- Help Section -->
+      <div class="help-section">
+        <p>If you need help, remember the basics of addition!</p>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="submit-section">
+        <button (click)="submitAnswer()">Submit</button>
+      </div>
+  
+      <!-- Result Section -->
+      <div class="result-section">
+        <p>{{ resultMessage }}</p>
+      </div>
+    </div>
+  </div>
+  
